@@ -8,6 +8,7 @@ const ContainerRecommendations = (props) => {
         key={data.entry.mal_id}
         img={data.entry.images.webp.image_url}
         title={data.entry.title}
+        review={data.entry.mal_id}
       />
     );
   });
