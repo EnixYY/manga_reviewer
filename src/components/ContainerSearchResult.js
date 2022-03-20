@@ -3,6 +3,7 @@ import SearchResult from "./SearchResult";
 
 const ContainerSearchResult = (props) => {
   const allResults = props.resultData.map((result) => {
+    const hyperLink = `${result.url}/reviews`;
     return (
       <SearchResult
         key={result.mal_id}
@@ -12,6 +13,7 @@ const ContainerSearchResult = (props) => {
             : "https://cdn.browshot.com/static/images/not-found.png"
         }
         name={result.title}
+        link={hyperLink}
       />
     );
   });

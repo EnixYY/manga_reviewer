@@ -11,6 +11,7 @@ const ContainerHeroImage = (props) => {
             ? data.images.webp.large_image_url
             : "https://cdn.browshot.com/static/images/not-found.png"
         }
+        link={data.url}
       />
     );
   });

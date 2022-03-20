@@ -4,7 +4,7 @@ const SearchResult = (props) => {
   return (
     <>
       <img src={props.img} />
-      <p>{props.name}</p>
+      <a href={props.link}>{props.name}</a>
     </>
   );
 };

@@ -3,7 +3,9 @@ import React from "react";
 const HeroImage = (props) => {
   return (
     <>
-      <img src={props.img} alt="Manga Image" />
+      <a href={props.link}>
+        <img src={props.img} alt="Manga Image" />
+      </a>
     </>
   );
 };

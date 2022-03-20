@@ -24,7 +24,6 @@ function App() {
       const res = await fetch(url);
 
       const heroImageData = await res.json();
-      console.log(heroImageData.data.slice(0, 3));
 
       setHeroImage(heroImageData.data.slice(0, 3));
     } catch (err) {
