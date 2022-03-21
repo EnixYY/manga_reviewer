@@ -16,9 +16,8 @@ const Home = () => {
       const response = await fetch(url);
 
       const postData = await response.json();
-      console.log(postData.data.splice(0, 2));
 
-      setPostData(postData.data.splice(0, 2));
+      setPostData(postData.data.splice(0, 3));
     } catch (err) {
       setError(err.message);
     }

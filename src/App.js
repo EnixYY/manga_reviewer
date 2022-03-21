@@ -2,11 +2,10 @@ import React, { Suspense, useState, useEffect } from "react";
 import { Route, Routes, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import ContainerHeroImage from "./components/ContainerHeroImage"; // import PageOne from "./pages/PageOne";
-import Search from "./pages/Search";
 // import PageTwo from "./pages/PageTwo";
 // import PageThree from "./pages/PageThree";
 const Home = React.lazy(() => import("./pages/Home"));
-// const PageTwo = React.lazy(() => import("./pages/PageTwo"));
+const Search = React.lazy(() => import("./pages/Search"));
 // const PageThree = React.lazy(() => import("./pages/PageThree"));
 
 function App() {
@@ -25,7 +24,7 @@ function App() {
 
       const heroImageData = await res.json();
 
-      setHeroImage(heroImageData.data.slice(0, 3));
+      setHeroImage(heroImageData.data.slice(0, 9));
     } catch (err) {
       setError(err.message);
     }

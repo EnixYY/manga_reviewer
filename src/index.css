@@ -5,9 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: turquoise;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.card {
+  width: 100%;
+  height: 450px;
+  font-size: 15px;
+  /* margin: 0, 20px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.card .img {
+  width: 100%;
+  height: 315px;
+}
+
+.card .rank {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.card .title {
+  margin: 0;
+  max-width: 200px;
+}
+
+.rec.rec-pagination {
+  margin: 0;
 }

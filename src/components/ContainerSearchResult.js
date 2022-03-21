@@ -28,7 +28,7 @@ const ContainerSearchResult = (props) => {
         ></input>
         <button type="submit">Search</button>
       </form>
-      <div>{allResults}</div>
+      {allResults}
     </>
   );
 };

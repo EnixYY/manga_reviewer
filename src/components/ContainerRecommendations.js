@@ -14,10 +14,10 @@ const ContainerRecommendations = (props) => {
   });
 
   return (
-    <div>
-      <h3>Recommendations</h3>
+    <>
+      <h2>Recommendations</h2>
       {allPostData}
-    </div>
+    </>
   );
 };
 

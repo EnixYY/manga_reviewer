@@ -25,7 +25,9 @@ const Post = (props) => {
     <div>
       <img src={props.img} />
       <p>{props.title}</p>
-      <p>{reviewData}</p>
+      <div>
+        <p>{reviewData}</p>
+      </div>
     </div>
   );
 };
