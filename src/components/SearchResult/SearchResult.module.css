@@ -1,6 +1,14 @@
 .searchresult {
-  height: 100%;
+  width: 350px;
+  height: 450px;
   border: 1px solid black;
   text-align: center;
-  flex-direction: column;
+  align-content: center;
+  padding-top: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.searchresult img {
+  height: 350px;
 }

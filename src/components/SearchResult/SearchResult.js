@@ -5,7 +5,9 @@ const SearchResult = (props) => {
   return (
     <div className={styles.searchresult}>
       <img src={props.img} />
-      <a href={props.link}>{props.name}</a>
+      <br />
+      <p>{props.name}</p>
+      <a href={props.link}>Click for more reviews!</a>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 import SearchResult from "../SearchResult";
-import style from "./ContainerSearchResult";
+import styles from "./ContainerSearchResult.module.css";
 
 const ContainerSearchResult = (props) => {
   const allResults = props.resultData.map((result) => {
@@ -29,7 +29,7 @@ const ContainerSearchResult = (props) => {
         ></input>
         <button type="submit">Search</button>
       </form>
-      <div style={style.containersearchresult}> {allResults}</div>
+      <div className={styles.containersearchresult}> {allResults}</div>
     </>
   );
 };
