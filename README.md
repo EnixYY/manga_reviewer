@@ -68,3 +68,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### List of things to work on
+
+#### Must do (MVP)
+
+Make a home page with a top 9 manga hero image and also able to populate recommended manga with reviews. (Done)
+
+Search function that connects to myAnimeList review page. (Done)
+
+#### Can do (Stretch goals)
+
+Have carousel for the top 9 hero image. (Done)
+
+Make a dropdown list for genre search in the search function
+
+Make navbar responsive. Burger menu when mobile view.
+
+CSS my app
