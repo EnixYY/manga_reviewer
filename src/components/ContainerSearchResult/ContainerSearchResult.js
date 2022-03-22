@@ -1,6 +1,5 @@
 import React from "react";
-import SearchResult from "./SearchResult";
-
+import SearchResult from "../SearchResult";
 const ContainerSearchResult = (props) => {
   const allResults = props.resultData.map((result) => {
     const hyperLink = `${result.url}/reviews`;

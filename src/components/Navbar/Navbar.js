@@ -23,14 +23,6 @@ const Navbar = () => {
               Search
             </NavLink>
           </li>
-          {/* <li>
-            <NavLink
-              ClassName={(navData) => (navData.isActive ? styles.active : "")}
-              to="/page-three"
-            >
-              Page Three
-            </NavLink>
-          </li> */}
         </ul>
       </nav>
     </header>

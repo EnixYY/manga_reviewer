@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
-import HeroImage from "./HeroImage";
+import HeroImage from "../HeroImage";
 
 const ContainerHeroImage = (props) => {
   const allHeroImg = props.imgSrc.map((data) => {

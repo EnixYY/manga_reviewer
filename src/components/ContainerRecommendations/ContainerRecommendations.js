@@ -1,6 +1,5 @@
 import React from "react";
-import Post from "./Post";
-
+import Post from "../Post";
 const ContainerRecommendations = (props) => {
   const allPostData = props.allPostData.map((data) => {
     return (
