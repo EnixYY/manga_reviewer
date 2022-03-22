@@ -45,8 +45,6 @@ function App() {
             <Route path="/" element={<Navigate replace to="Home" />} />
             <Route path="/Home" element={<Home />} />
             <Route path="/Search" element={<Search />} />
-            {/* <Route path="/page-two" element={<PageTwo />} /> */}
-            {/* <Route path="/page-three" element={<PageThree />} /> */}
           </Routes>
         </Suspense>
       </main>

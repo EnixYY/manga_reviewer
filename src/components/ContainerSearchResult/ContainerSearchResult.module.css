@@ -1,0 +1,4 @@
+.containersearchresult {
+  display: flex;
+  flex-wrap: wrap;
+}

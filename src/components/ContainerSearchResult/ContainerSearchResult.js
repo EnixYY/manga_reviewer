@@ -1,5 +1,7 @@
 import React from "react";
 import SearchResult from "../SearchResult";
+import style from "./ContainerSearchResult";
+
 const ContainerSearchResult = (props) => {
   const allResults = props.resultData.map((result) => {
     const hyperLink = `${result.url}/reviews`;
@@ -27,7 +29,7 @@ const ContainerSearchResult = (props) => {
         ></input>
         <button type="submit">Search</button>
       </form>
-      {allResults}
+      <div style={style.containersearchresult}> {allResults}</div>
     </>
   );
 };

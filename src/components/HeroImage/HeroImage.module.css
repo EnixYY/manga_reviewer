@@ -1,0 +1,26 @@
+.card {
+  width: 100%;
+  height: 450px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.card img {
+  width: 100%;
+  height: 315px;
+}
+
+.card p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.card p {
+  max-width: 200px;
+}

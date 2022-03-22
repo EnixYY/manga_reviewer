@@ -1,13 +1,14 @@
 import React from "react";
+import style from "./HeroImage.module.css";
 
 const HeroImage = (props) => {
   return (
-    <div className="card">
+    <div className={style.card}>
       <a href={props.link}>
-        <img className="img" src={props.img} alt="Manga Image" />
+        <img src={props.img} alt="Manga Image" />
       </a>
-      <p className="rank">Rank {props.rank}</p>
-      <p className="title">{props.title}</p>
+      <p>Rank {props.rank}</p>
+      <p>{props.title}</p>
     </div>
   );
 };
