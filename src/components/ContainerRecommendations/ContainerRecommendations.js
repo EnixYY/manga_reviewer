@@ -1,5 +1,7 @@
 import React from "react";
 import Post from "../Post";
+import styles from "./ContainerRecommendations.module.css";
+
 const ContainerRecommendations = (props) => {
   const allPostData = props.allPostData.map((data) => {
     return (
@@ -14,10 +16,10 @@ const ContainerRecommendations = (props) => {
   });
 
   return (
-    <>
+    <div className={styles.container}>
       <h2>Recommendations</h2>
       {allPostData}
-    </>
+    </div>
   );
 };
 

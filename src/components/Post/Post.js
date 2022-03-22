@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import styles from "./Post.module.css";
 
 const Post = (props) => {
   const [reviewData, setReviewData] = useState("");
@@ -22,11 +23,11 @@ const Post = (props) => {
 
   const displayPost = () => {
     if (reviewData !== "No available review") {
-      return <p>{reviewData}</p>;
+      return <p className={styles.review}>{reviewData}</p>;
     } else {
       return (
         <>
-          <p>{reviewData}</p>
+          <p className={styles.review}>{reviewData}</p>
           <a href={props.noReview}>
             Click to check out more info from My animelist!
           </a>
@@ -36,9 +37,11 @@ const Post = (props) => {
   };
 
   return (
-    <div>
-      <img src={props.img} />
-      <p>{props.title}</p>
+    <div className={styles.post}>
+      <section>
+        <img src={props.img} />
+        <p className={styles.title}>{props.title}</p>
+      </section>
       <div>{displayPost()}</div>
     </div>
   );
