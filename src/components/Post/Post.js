@@ -27,10 +27,14 @@ const Post = (props) => {
     } else {
       return (
         <>
-          <p className={styles.review}>{reviewData}</p>
-          <a href={props.noReview}>
-            Click to check out more info from My animelist!
-          </a>
+          <p className={styles.review}>
+            {reviewData}
+            <br />
+            <br />
+            <a href={props.noReview}>
+              Click to check out more info from My animelist!
+            </a>
+          </p>
         </>
       );
     }

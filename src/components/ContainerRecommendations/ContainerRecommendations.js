@@ -17,7 +17,7 @@ const ContainerRecommendations = (props) => {
 
   return (
     <div className={styles.container}>
-      <h2>Recommendations</h2>
+      <h1>Recommendations</h1>
       {allPostData}
     </div>
   );
