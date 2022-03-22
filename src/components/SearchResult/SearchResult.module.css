@@ -3,7 +3,7 @@
   height: 450px;
   border: 1px solid black;
   text-align: center;
-  align-content: center;
+  align-items: center;
   padding-top: 20px;
   margin: 10px;
   border-radius: 10px;
@@ -13,6 +13,7 @@
 
 .searchresult img {
   height: 350px;
+  width: 250px;
 }
 
 .searchresult p {
