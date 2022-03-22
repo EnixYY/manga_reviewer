@@ -21,14 +21,16 @@ const ContainerSearchResult = (props) => {
 
   return (
     <>
-      <form onSubmit={props.handleSearch}>
-        <input
-          value={props.inputValue}
-          onChange={props.handleChange}
-          placeholder="Enter your Manga here!"
-        ></input>
-        <button type="submit">Search</button>
-      </form>
+      <div className={styles.containersearchresult}>
+        <form onSubmit={props.handleSearch}>
+          <input
+            value={props.inputValue}
+            onChange={props.handleChange}
+            placeholder="Enter your Manga here!"
+          ></input>
+          <button type="submit">Search</button>
+        </form>
+      </div>
       <div className={styles.containersearchresult}> {allResults}</div>
     </>
   );

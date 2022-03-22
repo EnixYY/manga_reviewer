@@ -3,4 +3,26 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 20px;
+}
+
+.containersearchresult input {
+  width: 165px;
+  height: 30px;
+  font-size: 15px;
+  margin-right: 10px;
+  color: white;
+  background-color: black;
+}
+
+.containersearchresult ::placeholder {
+  color: white;
+  padding: 2px 2px 2px 2px;
+}
+
+.containersearchresult button {
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
 }
