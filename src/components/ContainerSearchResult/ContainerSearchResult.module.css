@@ -26,3 +26,10 @@
   background-color: black;
   color: white;
 }
+
+.containersearchresult select {
+  padding: 5px 5px 5px 5px;
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+}

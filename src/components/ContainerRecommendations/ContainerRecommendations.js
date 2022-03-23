@@ -11,6 +11,7 @@ const ContainerRecommendations = (props) => {
         title={data.entry.title}
         review={data.entry.mal_id}
         noReview={data.entry.url}
+        url={data.entry.url}
       />
     );
   });

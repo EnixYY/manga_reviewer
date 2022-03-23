@@ -24,7 +24,7 @@ function App() {
 
       const heroImageData = await res.json();
 
-      setHeroImage(heroImageData.data.slice(0, 9));
+      setHeroImage(heroImageData.data.slice(0, 10));
     } catch (err) {
       setError(err.message);
     }

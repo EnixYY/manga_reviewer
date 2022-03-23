@@ -44,7 +44,10 @@ const Post = (props) => {
     <div className={styles.post}>
       <section>
         <img src={props.img} />
-        <p className={styles.title}>{props.title}</p>
+        <br />
+        <a href={props.url} className={styles.title}>
+          {props.title}
+        </a>
       </section>
       <div>{displayPost()}</div>
     </div>

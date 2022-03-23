@@ -16,3 +16,25 @@ code {
 .rec.rec-pagination {
   margin: 0;
 }
+
+.rec.rec-dot {
+  box-shadow: 0 0 1px 2px maroon;
+}
+
+/* square buttons */
+.rec.rec-arrow {
+  border-radius: 0;
+  color: white;
+  background-color: maroon;
+  user-select: none;
+}
+
+/* round buttons on hover */
+.rec.rec-arrow:hover {
+  border-radius: 50%;
+}
+
+/* hide disabled buttons */
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
