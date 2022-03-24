@@ -35,24 +35,42 @@ const ContainerSearchResult = (props) => {
     );
   });
 
+  const allResultsAfterDropAndButton = props.resultDataFiltered.map(
+    (result) => {
+      const hyperLink = `${result.url}/reviews`;
+      return (
+        <SearchResult
+          key={result.mal_id}
+          img={
+            result.images.webp.image_url
+              ? result.images.webp.image_url
+              : "https://cdn.browshot.com/static/images/not-found.png"
+          }
+          name={result.title}
+          link={hyperLink}
+        />
+      );
+    }
+  );
+
   const handleDisplay = () => {
-    if (props.handleButtonSearch) {
+    if (props.handleDropSearch && props.handleButtonSearch) {
+      return (
+        <div className={styles.containersearchresult}>
+          {allResultsAfterDropAndButton}
+        </div>
+      );
+    } else if (props.handleDropSearch) {
+      return (
+        <div className={styles.containersearchresult}>{allResultsForDrop}</div>
+      );
+    } else if (props.handleButtonSearch) {
       return (
         <div className={styles.containersearchresult}>
           {allResultsForButton}
         </div>
       );
     }
-    if (props.handleDropSearch) {
-      return (
-        <div className={styles.containersearchresult}>{allResultsForDrop}</div>
-      );
-    }
-    // if (props.handleDropSearch && props.handleButtonSearch){
-    //   const dataFilteredSearch = props.dropResultData.filter(function (data) {
-    //     return (data.title = props.inputValue);
-    //   });
-    // }
   };
 
   return (
@@ -65,7 +83,7 @@ const ContainerSearchResult = (props) => {
             placeholder="Enter your Manga here!"
           ></input>
           <button type="submit">Search</button>
-          <select onChange={props.handleDropdownList}>
+          <select value={props.selectValue} onChange={props.handleDropdownList}>
             <option value="">Choose a genre</option>
             <option value="1">Action</option>
             <option value="2">Adventure</option>
@@ -73,6 +91,11 @@ const ContainerSearchResult = (props) => {
             <option value="4">Comedy</option>
             <option value="7">Mystery</option>
           </select>
+          {props.handleDropSearch && props.handleButtonSearch ? (
+            <button onClick={props.handleReset}>Reset</button>
+          ) : (
+            ""
+          )}
         </form>
       </div>
       {handleDisplay()}

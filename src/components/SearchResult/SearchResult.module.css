@@ -12,6 +12,10 @@
   color: white;
 }
 
+.searchresult:hover {
+  background-color: #312f2f;
+}
+
 .searchresult img {
   height: 350px;
   width: 250px;
