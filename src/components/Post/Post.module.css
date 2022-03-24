@@ -44,6 +44,7 @@
 
 .review a:hover {
   color: grey;
+  cursor: url(https://cur.cursors-4u.net/toons/too-1/too41.png), auto;
 }
 
 .review {
