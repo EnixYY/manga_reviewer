@@ -15,6 +15,10 @@
   background-color: #4f483e;
 }
 
+.containersearchresult input:hover {
+  cursor: url(https://cur.cursors-4u.net/toons/too-1/too41.png), auto;
+}
+
 .containersearchresult ::placeholder {
   color: white;
   padding: 2px 2px 2px 2px;
@@ -27,9 +31,17 @@
   color: white;
 }
 
+.containersearchresult button:hover {
+  cursor: url(https://cur.cursors-4u.net/toons/too-1/too41.png), auto;
+}
+
 .containersearchresult select {
   padding: 5px 5px 5px 5px;
   background-color: #4f483e;
   color: white;
   margin: 0px 10px 0px 10px;
+}
+
+.containersearchresult select:hover {
+  cursor: url(https://cur.cursors-4u.net/toons/too-1/too41.png), auto;
 }

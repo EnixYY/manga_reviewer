@@ -87,9 +87,16 @@ const ContainerSearchResult = (props) => {
             <option value="">Choose a genre</option>
             <option value="1">Action</option>
             <option value="2">Adventure</option>
-            <option value="30">Sports</option>
             <option value="4">Comedy</option>
+            <option value="10">Fantasy</option>
+            <option value="11">Game</option>
+            <option value="14">Horror</option>
+            <option value="17">Martial Arts</option>
+            <option value="18">Mecha</option>
             <option value="7">Mystery</option>
+            <option value="22">Romance</option>
+            <option value="30">Sports</option>
+            <option value="37">Supernatural</option>
           </select>
           {props.handleDropSearch && props.handleButtonSearch ? (
             <button onClick={props.handleReset}>Reset</button>
