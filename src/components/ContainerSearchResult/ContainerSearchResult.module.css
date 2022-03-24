@@ -12,7 +12,7 @@
   font-size: 15px;
   margin-right: 10px;
   color: white;
-  background-color: black;
+  background-color: #4f483e;
 }
 
 .containersearchresult ::placeholder {
@@ -23,13 +23,13 @@
 .containersearchresult button {
   padding: 5px 5px 5px 5px;
   border-radius: 10px;
-  background-color: black;
+  background-color: #4f483e;
   color: white;
 }
 
 .containersearchresult select {
   padding: 5px 5px 5px 5px;
-  background-color: black;
+  background-color: #4f483e;
   color: white;
   margin: 0px 10px 0px 10px;
 }

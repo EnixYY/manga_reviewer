@@ -4,6 +4,7 @@ import ContainerSearchResult from "../components/ContainerSearchResult";
 const searchHeader = {
   textAlign: "center",
   textShadow: "0 0 3px white",
+  color: "#4f483e",
 };
 
 const Search = () => {

@@ -1,17 +1,17 @@
 .post {
   display: flex;
-  border: 1px solid black;
+  border: 1.5px solid #4f483e;
   width: 85%;
   height: 370px;
   margin-bottom: 20px;
   align-items: flex-start;
   border-radius: 10px;
-  color: white;
-  background-color: black;
+  color: #4f483e;
+  background-color: #88b3c2;
 }
 
 .post:hover {
-  background-color: #312f2f;
+  background-color: #c4cccc;
 }
 
 .post section {
@@ -28,10 +28,18 @@
 .title {
   font-weight: bold;
   margin: 0;
-  color: white;
+  color: #4f483e;
 }
 
 .title:hover {
+  color: grey;
+}
+
+.review a {
+  color: #4f483e;
+}
+
+.review a:hover {
   color: grey;
 }
 

@@ -1,6 +1,6 @@
 .navbar {
   height: 5rem;
-  background-color: maroon;
+  background-color: white;
 }
 
 .navbar nav {
@@ -24,14 +24,15 @@
 }
 
 .navbar a {
-  color: white;
+  color: #61a2b0;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .navbar a:hover,
 .navbar a:active,
 .navbar a.active {
-  color: whitesmoke;
+  color: #61a2b0;
   padding-bottom: 0.25rem;
-  border-bottom: 4px solid whitesmoke;
+  border-bottom: 4px solid #61a2b0;
 }

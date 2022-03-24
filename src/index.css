@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: darkblue;
+  background-color: #88b3c2;
 }
 
 code {
@@ -18,14 +18,14 @@ code {
 }
 
 .rec.rec-dot {
-  box-shadow: 0 0 1px 2px maroon;
+  box-shadow: 0 0 1px 2px #4f483e;
 }
 
 /* square buttons */
 .rec.rec-arrow {
   border-radius: 0;
   color: white;
-  background-color: maroon;
+  background-color: #61a2b0;
   user-select: none;
 }
 

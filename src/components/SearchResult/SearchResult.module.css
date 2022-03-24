@@ -1,19 +1,19 @@
 .searchresult {
   width: 350px;
   height: auto;
-  border: 1px solid black;
+  border: 1px solid #4f483e;
   text-align: center;
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 10px;
   border-radius: 10px;
-  background-color: black;
-  color: white;
+  background-color: #88b3c2;
+  color: #4f483e;
 }
 
 .searchresult:hover {
-  background-color: #312f2f;
+  background-color: #c4cccc;
 }
 
 .searchresult img {
@@ -26,7 +26,7 @@
 }
 
 .searchresult a {
-  color: white;
+  color: #4f483e;
 }
 
 .searchresult a:hover {
