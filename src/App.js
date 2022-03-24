@@ -1,12 +1,9 @@
 import React, { Suspense, useState, useEffect } from "react";
 import { Route, Routes, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import ContainerHeroImage from "./components/ContainerHeroImage"; // import PageOne from "./pages/PageOne";
-// import PageTwo from "./pages/PageTwo";
-// import PageThree from "./pages/PageThree";
+import ContainerHeroImage from "./components/ContainerHeroImage";
 const Home = React.lazy(() => import("./pages/Home"));
 const Search = React.lazy(() => import("./pages/Search"));
-// const PageThree = React.lazy(() => import("./pages/PageThree"));
 
 function App() {
   const [heroImage, setHeroImage] = useState([]);

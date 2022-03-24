@@ -8,15 +8,17 @@
   border-radius: 10px;
   color: #4f483e;
   background-color: #88b3c2;
+  padding: 20px;
 }
 
 .post:hover {
   background-color: #c4cccc;
+  cursor: url(https://cur.cursors-4u.net/toons/too-1/too41.png), auto;
 }
 
 .post section {
   text-align: center;
-  padding: 20px 10px 20px 20px;
+  padding: 20px 20px 20px 0px;
 }
 
 .post img {
@@ -33,6 +35,7 @@
 
 .title:hover {
   color: grey;
+  cursor: url(https://cur.cursors-4u.net/toons/too-1/too41.png), auto;
 }
 
 .review a {
@@ -49,6 +52,6 @@
   margin-top: 15px;
   overflow: scroll;
   height: 320px;
-  width: 98%;
+  width: 100%;
   line-height: 1.5;
 }

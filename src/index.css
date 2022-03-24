@@ -21,7 +21,11 @@ code {
   box-shadow: 0 0 1px 2px #4f483e;
 }
 
-/* square buttons */
+.rec.rec-dot:hover {
+  box-shadow: 0 0 1px 2px #4f483e;
+  cursor: url(https://cur.cursors-4u.net/toons/too-1/too41.png), auto;
+}
+
 .rec.rec-arrow {
   border-radius: 0;
   color: white;
@@ -29,12 +33,11 @@ code {
   user-select: none;
 }
 
-/* round buttons on hover */
 .rec.rec-arrow:hover {
   border-radius: 50%;
+  cursor: url(https://cur.cursors-4u.net/toons/too-1/too41.png), auto;
 }
 
-/* hide disabled buttons */
 .rec.rec-arrow:disabled {
   visibility: hidden;
 }

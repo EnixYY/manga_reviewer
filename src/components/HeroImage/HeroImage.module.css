@@ -18,10 +18,11 @@
 }
 
 .card p {
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 0;
+  max-width: 200px;
 }
 
-.card p {
-  max-width: 200px;
+.card a:hover {
+  cursor: url(https://cur.cursors-4u.net/toons/too-1/too41.png), auto;
 }

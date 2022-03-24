@@ -46,7 +46,6 @@ const Search = () => {
 
   useEffect(() => {
     if (select.length) {
-      console.log("hi");
       fetchSearchDropdownList();
       setHasButtonSearch(false);
     }
@@ -54,14 +53,15 @@ const Search = () => {
 
   const handleTwoState = (event) => {
     event.preventDefault();
+    const filteredData = searchDropData.filter((data) =>
+      data.title.toLowerCase().includes(input.toLowerCase())
+    );
+
     if (hasGenreSearch) {
       setHasButtonSearch(true);
       setSelect("");
-      setDataFilteredSearch(
-        searchDropData.filter(function (data) {
-          return data.title.includes(input);
-        })
-      );
+      setInput("");
+      setDataFilteredSearch(filteredData);
     } else {
       fetchSearchInput();
     }

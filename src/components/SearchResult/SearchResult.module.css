@@ -14,6 +14,7 @@
 
 .searchresult:hover {
   background-color: #c4cccc;
+  cursor: url(https://cur.cursors-4u.net/toons/too-1/too41.png), auto;
 }
 
 .searchresult img {
@@ -31,4 +32,5 @@
 
 .searchresult a:hover {
   color: grey;
+  cursor: url(https://cur.cursors-4u.net/toons/too-1/too41.png), auto;
 }

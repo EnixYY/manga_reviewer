@@ -32,19 +32,6 @@ const Home = () => {
     return Math.floor(Math.random() * (50 - 1) + 1);
   };
 
-  // let content = "";
-  // if (heroImage) {
-  //   content = <></>;
-  // }
-
-  // if (error) {
-  //   content = <p>{error}</p>;
-  // }
-
-  // if (isLoading) {
-  //   content = <p>loading</p>;
-  // }
-
   return (
     <div>
       <ContainerRecommendations allPostData={postData} />
