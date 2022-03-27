@@ -25,8 +25,10 @@ Currently the app is done on phase 1 where the search and home page is completed
 ## Screenshots
 #### HeroImage Carousel
 <img width="1512" alt="HeroImage with navbar" src="https://user-images.githubusercontent.com/26226289/160269124-c95e54ee-2a59-4edd-959a-77ebbfe21156.png">
+
 #### Recommendation with top reviews from other users
 <img width="1512" alt="recommendations" src="https://user-images.githubusercontent.com/26226289/160269127-a5ad27e9-74ad-4f6b-822a-8a99b05ffa5e.png">
+
 #### Search with list of genre
 <img width="1512" alt="Search" src="https://user-images.githubusercontent.com/26226289/160269128-e3ec8927-411c-4d22-bbee-9795290576e4.png">
 
