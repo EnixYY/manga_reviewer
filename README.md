@@ -51,7 +51,7 @@ Jikan API version 4
 https://jikan.moe/
 
 ## How to use
-Please visit https://mangareviewer.netlify.app/Home to access the app.
+Please visit https://mangareviewer.netlify.app/ to access the app.
 
 Carousel consist of top 10 manga from myanimelist database.
 
